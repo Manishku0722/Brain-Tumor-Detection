@@ -13,6 +13,58 @@
   }
 }
 
+.mainContainer {
+  display: flex;
+}
+
+.containerleft {
+  height: 84vh;
+  width: 25vw;
+  background-color: rgb(39 160 234 / 26%);
+  /* border: 2px solid black; */
+}
+
+.containerright {
+  /* display: flex; */
+  height: 84vh;
+  width: 75vw;
+  /* background-color: yellow; */
+  /* border: 2px solid black;  */
+}
+
+.containerright .imagess {
+  height: 30vh;
+  width: 20vw;
+  /* background-color: pink; */
+  border: 2px solid black;
+}
+
+.containerright .imagess img{
+  height: 30vh;
+  width: 20vw; 
+}
+
+.containerright .box {
+  display: flex;
+  margin-left: 15vw;
+  margin-top: 8vh;
+}
+
+.containerrightFirst .imagess {
+  margin-right: 10vw;
+  margin-bottom: 8vh;
+}
+
+.containerrightSecond .imagess {
+  margin-right: 10vw;
+  margin-bottom: 8vh;
+}
+
+.Btn .buttonImage {
+  height: 30px;
+  width: 80px;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -32,6 +84,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
